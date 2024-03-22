@@ -9,8 +9,7 @@ const esbuild = require("esbuild");
 
 let files = [
   `../${require("../package.json").main}`,
-  "../node_helper.js",
-  "../components/lib/node/index.js"
+  "../node_helper.js"
 ];
 
 const project = require("../package.json").name;
