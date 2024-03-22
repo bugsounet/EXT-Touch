@@ -19,5 +19,5 @@ module.exports = NodeHelper.create({
     console.log("[TOUCH] EXT-Touch Version:", require("./package.json").version, "rev:", require("./package.json").rev);
     console.log("[TOUCH] Ready with Touch Screen");
     this.sendSocketNotification("INITIALIZED");
-  },
+  }
 });
