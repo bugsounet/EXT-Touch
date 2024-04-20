@@ -1,7 +1,5 @@
 #EXT_TOUCH {
-  display: flex;
-  margin-left: 10px;
-  align-items: center;
+  display: inline-flex;
 }
 
 #EXT_TOUCH.hidden {
@@ -13,7 +11,6 @@
     width: 50px;
     height: 52px;
     background-repeat: no-repeat;
-    margin-right: 10px;
 }
 
 #EXT_TOUCH-ICON.busy {
