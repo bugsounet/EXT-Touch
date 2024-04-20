@@ -1,7 +1,7 @@
 {
   "name": "EXT-Touch",
-  "version": "1.0.0",
-  "rev": "240322",
+  "version": "1.0.1",
+  "rev": "240420",
   "description": "Activate by Touch for MMM-GoogleAssistant",
   "main": "EXT-Touch.js",
   "scripts": {
