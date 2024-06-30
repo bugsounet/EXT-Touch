@@ -34,7 +34,7 @@
     "url": "https://github.com/bugsounet/EXT-Touch/issues"
   },
   "dependencies": {
-    "esbuild": "^0.21.5",
+    "esbuild": "^0.22.0",
     "glob": "^10.4.2"
   },
   "devDependencies": {
