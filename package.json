@@ -1,12 +1,12 @@
 {
   "name": "EXT-Touch",
-  "version": "1.0.1",
-  "rev": "240420",
+  "version": "1.1.0",
+  "rev": "240701",
   "description": "Activate by Touch for MMM-GoogleAssistant",
   "main": "EXT-Touch.js",
   "scripts": {
     "preinstall": "installer/preinstall.sh",
-    "postinstall": "installer/postinstall.sh -m -b",
+    "postinstall": "installer/postinstall.sh -m",
     "update": "installer/update.sh",
     "reset": "git reset --hard",
     "clean": "rm -rf node_modules package-lock.json",
@@ -22,7 +22,7 @@
     "touch"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "author": "bugsounet",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "url": "https://github.com/bugsounet/EXT-Touch"
   },
   "bugs": {
-    "url": "https://forum.bugsounet.fr"
+    "url": "https://github.com/bugsounet/EXT-Touch/issues"
   },
   "dependencies": {
     "esbuild": "^0.21.5",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
-    "@stylistic/eslint-plugin": "^2.1.0",
+    "@stylistic/eslint-plugin": "^1.8.1",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1"
   }
